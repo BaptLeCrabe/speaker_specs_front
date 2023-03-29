@@ -1,6 +1,6 @@
-<script setup lang="js">
+<script lang="js">
 import DriverCard from './drivers/DriverCard.vue'
-import { useDriversStore } from '@/stores/Drivers'
+import { useDriversStore } from '@/stores/drivers'
 import { useGlobalsStore } from '@/stores/globals'
 import axios from "axios"
 

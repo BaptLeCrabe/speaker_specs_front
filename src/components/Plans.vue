@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script lang="js">
 import SpeakerCard from './speakers/SpeakerCard.vue'
 import { useSpeakersStore } from '@/stores/speakers'
 import { useGlobalsStore } from '@/stores/globals'

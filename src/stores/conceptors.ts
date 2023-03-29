@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import type { Conceptor } from './types'
 
-export const useConceptorsStore = defineStore('Conceptors', {
+export const useConceptorsStore = defineStore('conceptors', {
   state: () => ({
     conceptorsLibrary: [] as Conceptor[]
   }),

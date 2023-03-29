@@ -1,4 +1,4 @@
-<script setup lang="js">
+<script lang="js">
 import ConceptorCard from '@/components/conceptors/ConceptorCard.vue'
 import { useConceptorsStore } from '@/stores/conceptors'
 import { useGlobalsStore } from '@/stores/globals'

@@ -3,7 +3,7 @@ import type { Driver } from './types'
 
 
 
-export const useDriversStore = defineStore('Drivers', {
+export const useDriversStore = defineStore('drivers', {
   state: () => ({
     driversLibrary: [] as Driver[]
   }),
